@@ -5,6 +5,11 @@
         "grunt-cli": "*",
         "grunt-karma": "*",
         "karma-qunit": "*",
-        "karma-phantomjs-launcher": "*"
+        "karma-phantomjs-launcher": "*",
+        "bower": "*",
+        "grunt-contrib-coffee": "*"
+    },
+    "scripts": {
+        "postinstall": "bower install"
     }
 }

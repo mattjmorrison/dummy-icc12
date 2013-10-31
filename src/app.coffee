@@ -1,1 +1,1 @@
-doSomething = -> 100
+App = Ember.Application.create()

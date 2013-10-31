@@ -1,2 +1,6 @@
 test "First test", ->
-    ok doSomething() == 100, "Didn't return 100"
+  Ember.run App, 'advanceReadiness'
+
+  visit('/').then ->
+   heading = find('#heading').text()
+   ok 'Hello World' == heading, "#{heading} was not 'Hello World'"

@@ -9,6 +9,9 @@ module.exports =
       reporters: ['progress']
       browsers: ['PhantomJS']
       files: [
+        'bower_components/jquery/jquery.min.js'
+        'bower_components/handlebars/handlebars.js'
+        'bower_components/ember/ember.js'
         'build/*.js'
         'build/tests/*.js'
       ]

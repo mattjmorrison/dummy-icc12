@@ -8,7 +8,8 @@
         "karma-phantomjs-launcher": "*",
         "bower": "*",
         "grunt-contrib-coffee": "*",
-        "grunt-ember-template-compiler": "*"
+        "grunt-ember-template-compiler": "*",
+        "grunt-coffeelint": "*"
     },
     "scripts": {
         "postinstall": "bower install"

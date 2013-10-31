@@ -9,7 +9,10 @@
         "grunt-contrib-coffee": "*",
         "grunt-ember-template-compiler": "*",
         "grunt-contrib-concat": "*",
-        "bower": "*"
+        "bower": "*",
+        "grunt-coffeelint": "*",
+        "karma-coverage": "*",
+        "grunt-karma-coveralls": "*"
     },
     "scripts": {
         "postinstall": "bower install"

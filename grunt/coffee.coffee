@@ -3,7 +3,7 @@ module.exports =
     bare: true
   compile:
     files:
-      'build/app.js': [
+      'build/app/app.js': [
         'src/*.coffee'
       ]
       'build/tests/tests.js': [

@@ -7,4 +7,4 @@ module.exports =
     files: [
       'src/templates/*.handlebars'
     ]
-    dest: 'build/tmpl.js'
+    dest: 'build/app/tmpl.js'

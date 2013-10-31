@@ -4,4 +4,5 @@ module.exports = (grunt) ->
     'coffee'
     'emberhandlebars'
     'karma'
+    'coffeelint'
   ]

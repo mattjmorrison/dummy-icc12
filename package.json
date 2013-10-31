@@ -6,6 +6,12 @@
         "grunt-karma": "*",
         "karma-qunit": "*",
         "karma-phantomjs-launcher": "*",
-        "grunt-contrib-coffee": "*"
+        "grunt-contrib-coffee": "*",
+        "grunt-ember-template-compiler": "*",
+        "grunt-contrib-concat": "*",
+        "bower": "*"
+    },
+    "scripts": {
+        "postinstall": "bower install"
     }
 }

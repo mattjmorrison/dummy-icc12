@@ -9,6 +9,8 @@ module.exports =
       reporters: ['progress']
       browsers: ['PhantomJS']
       files: [
-        'build/*.js'
+        'build/deps.js'
+        'build/app.js'
+        'build/tmpl.js'
         'build/tests/*.js'
       ]

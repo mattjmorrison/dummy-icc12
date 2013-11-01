@@ -6,3 +6,4 @@ module.exports =
       'bower_components/ember/ember.js'
     ]
     dest: 'build/deps.js'
+

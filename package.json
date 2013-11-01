@@ -16,7 +16,6 @@
         "grunt-contrib-watch": "*",
         "grunt-recess": "*",
         "grunt-contrib-uglify": "*"
-
     },
     "scripts": {
         "postinstall": "bower install",

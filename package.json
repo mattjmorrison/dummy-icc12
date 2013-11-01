@@ -12,7 +12,11 @@
         "bower": "*",
         "grunt-coffeelint": "*",
         "karma-coverage": "*",
-        "grunt-karma-coveralls": "*"
+        "grunt-karma-coveralls": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-recess": "*",
+        "grunt-contrib-uglify": "*"
+
     },
     "scripts": {
         "postinstall": "bower install"
